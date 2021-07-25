@@ -1,11 +1,11 @@
 require('esbuild')
   .serve(
     {
-      servedir: 'dist'
+      servedir: 'www'
     },
     {
       entryPoints: ['src/main.ts'],
-      outdir: 'dist/js',
+      outdir: 'www/js',
       bundle: true
     }
   )
